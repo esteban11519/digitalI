@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1586394075">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="mclk.drc"/>
+  <File Type="BG-BGN" Name="mclk.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="mclk.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="mclk.ltx"/>
+  <File Type="RBD_FILE" Name="mclk.rbd"/>
+  <File Type="NPI_FILE" Name="mclk.npi"/>
+  <File Type="RNPI_FILE" Name="mclk.rnpi"/>
+  <File Type="CFI_FILE" Name="mclk.cfi"/>
+  <File Type="RDI-RDI" Name="mclk.vdi"/>
+  <File Type="RCFI_FILE" Name="mclk.rcfi"/>
+  <File Type="PDI-FILE" Name="mclk.pdi"/>
+  <File Type="BITSTR-MMI" Name="mclk.mmi"/>
+  <File Type="BITSTR-BMM" Name="mclk_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="mclk.nky"/>
+  <File Type="BITSTR-RBT" Name="mclk.rbt"/>
+  <File Type="BITSTR-MSK" Name="mclk.msk"/>
+  <File Type="BG-BIN" Name="mclk.bin"/>
+  <File Type="BG-BIT" Name="mclk.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mclk_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mclk_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mclk_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mclk_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mclk_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mclk_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mclk_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mclk_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mclk_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mclk_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mclk_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mclk_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="mclk_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mclk_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="mclk_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mclk_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mclk_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="mclk_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="mclk_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="mclk_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="mclk_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mclk_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mclk_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mclk_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="mclk_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="mclk_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="mclk_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mclk_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="mclk_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mclk_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="mclk_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="mclk_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mclk_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mclk_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mclk_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="mclk_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mclk_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mclk_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="mclk_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mclk_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="mclk_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mclk_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="mclk_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="mclk_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="mclk_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="mclk_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="mclk.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mclk_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="mclk_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mclk_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="mclk_timing_summary_init.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mclk_timing_summary_pwropted.rpt"/>
+  <File Type="REPORTS-TCL" Name="mclk_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="mclk_timing_summary_opted.rpt"/>
+  <File Type="PA-TCL" Name="mclk.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mclk"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

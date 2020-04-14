@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/labs/lab02-bcs2sseg-grupo-03/src/BCDtoSSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDtoSSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/labs/lab02-bcs2sseg-grupo-03/src/BCD2SSeg_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDtoSSeg_TB

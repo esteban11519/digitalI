@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/practices/p_0/p_0.srcs/sources_1/new/main1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/practices/p_0/p_0.srcs/sim_1/new/smain1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module smain1
+INFO: [VRFC 10-2458] undeclared symbol y, assumed default net type wire [/home/esteban/digitalI/practices/p_0/p_0.srcs/sim_1/new/smain1.v:29]

@@ -1,0 +1,12 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+El contador es: 0 
+El contador es: 1 
+El contador es: 0 
+El contador es: 1 
+El contador es: 0 
+El contador es: 1 
+El contador es: 0 
+El contador es: 1 
+El contador es: 0 
+$finish called at time : 200 ns : File "/home/esteban/digitalI/practices/clk/clk.srcs/sim_1/new/simClk.v" Line 27

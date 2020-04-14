@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/esteban/programs/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto 50589f1c5fb3411c9825119526b7c78f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDtoSSeg_TB_behav xil_defaultlib.BCDtoSSeg_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/esteban/digitalI/labs/lab02-bcs2sseg-grupo-03/src/BCDtoSSeg.v" Line 2. Module BCDtoSSeg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDtoSSeg
+Compiling module xil_defaultlib.BCDtoSSeg_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDtoSSeg_TB_behav

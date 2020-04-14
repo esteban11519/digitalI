@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Apr  8 20:01:50 2020
+# Process ID: 18185
+# Current directory: /home/esteban/digitalI/practices/clk/clk.runs/impl_1
+# Command line: vivado -log mclk.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mclk.tcl -notrace
+# Log file: /home/esteban/digitalI/practices/clk/clk.runs/impl_1/mclk.vdi
+# Journal file: /home/esteban/digitalI/practices/clk/clk.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mclk.tcl -notrace

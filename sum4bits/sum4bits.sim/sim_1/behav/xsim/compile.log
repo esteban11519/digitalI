@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/practices/sum4bits/sum4bits.srcs/sources_1/new/sum1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/practices/sum4bits/sum4bits.srcs/sources_1/new/sum4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/practices/sum4bits/sum4bits.srcs/sim_1/new/simSum4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simSum4bits
