@@ -19,25 +19,28 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+// The frequency in the sweeping should be 4 times more fast that the way in that change
+// the variable an.
 
-module KeyPad(
+module keypad(
     clk,
     cols,
     sevSeg,
     an,
-    rows
+    rows,
+    nums
     );
     
     input clk;
     input [3:0] cols;
-    input [3:0] rows;
     output [6:0] sevSeg;
-    output reg [3:0] an;
+    output [3:0] an;
+    output [3:0] rows;
+    output [15:0] nums;
     
     
     wire clk_1K;
-    wire [3:0]rows;
-    wire [15:0] nums;
+  
     wire [3:0]BCD;
     wire divFre;
  
@@ -66,6 +69,4 @@ module KeyPad(
     .divFre(divFre)
     );
         
-    
-    
 endmodule

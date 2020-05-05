@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/BCDtoSeg.v,1586874837,verilog,,/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/comparator.v,,BCDtoSeg,,,,,,,,
+/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/freDiv.v,1586874837,verilog,,/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v,,mfreDiv,,,,,,,,
+/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selAn.v,1586874837,verilog,,/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v,,selAn,,,,,,,,
+/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v,1586874837,verilog,,/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v,,selDat,,,,,,,,
+/home/esteban/digitalI/digitalI/keypad/keypad.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v,1588115636,verilog,,,,simKeyPad,,,,,,,,
+/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/comparator.v,1588110596,verilog,,/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/freDiv.v,,comparator,,,,,,,,
+/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v,1588115514,verilog,,/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selAn.v,,keypad,,,,,,,,
+/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v,1588115080,verilog,,/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v,,sweeping,,,,,,,,

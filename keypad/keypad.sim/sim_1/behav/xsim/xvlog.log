@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/BCDtoSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDtoSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/freDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mfreDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keypad
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selAn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selAn
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selDat
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sweeping
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simKeyPad
+INFO: [VRFC 10-2458] undeclared symbol clk, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:26]
+INFO: [VRFC 10-2458] undeclared symbol cols, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:27]
+INFO: [VRFC 10-2458] undeclared symbol sevSeg, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:28]
+INFO: [VRFC 10-2458] undeclared symbol an, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:29]
+INFO: [VRFC 10-2458] undeclared symbol rows, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:30]
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:31]
+WARNING: [VRFC 10-2938] 'clk' is already implicitly declared on line 26 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:34]
+WARNING: [VRFC 10-2938] 'cols' is already implicitly declared on line 27 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:35]
+WARNING: [VRFC 10-2938] 'sevSeg' is already implicitly declared on line 28 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:36]
+WARNING: [VRFC 10-2938] 'an' is already implicitly declared on line 29 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:37]
+WARNING: [VRFC 10-2938] 'rows' is already implicitly declared on line 30 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:38]
+WARNING: [VRFC 10-2938] 'a' is already implicitly declared on line 31 [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sim_1/new/simKeyPad.v:39]

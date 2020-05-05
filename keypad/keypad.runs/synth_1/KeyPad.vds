@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Tue Apr 28 10:00:20 2020
-# Process ID: 20937
+# Start of session at: Tue Apr 28 16:56:48 2020
+# Process ID: 4803
 # Current directory: /home/esteban/digitalI/digitalI/keypad/keypad.runs/synth_1
 # Command line: vivado -log KeyPad.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source KeyPad.tcl
 # Log file: /home/esteban/digitalI/digitalI/keypad/keypad.runs/synth_1/KeyPad.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 20952 
+INFO: Helper process launched with PID 4816 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1657.172 ; gain = 182.602 ; free physical = 226 ; free virtual = 7486
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1657.172 ; gain = 182.602 ; free physical = 4005 ; free virtual = 9594
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'KeyPad' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
 INFO: [Synth 8-6157] synthesizing module 'mfreDiv' [/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/freDiv.v:4]
@@ -25,7 +25,6 @@ INFO: [Synth 8-6155] done synthesizing module 'mfreDiv' (1#1) [/home/esteban/dig
 INFO: [Synth 8-6157] synthesizing module 'sweeping' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:23]
 INFO: [Synth 8-226] default block is never used [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:34]
 INFO: [Synth 8-6155] done synthesizing module 'sweeping' (2#1) [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:23]
-WARNING: [Synth 8-6104] Input port 'rows' has an internal driver [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:52]
 INFO: [Synth 8-6157] synthesizing module 'comparator' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/comparator.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'comparator' (3#1) [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/comparator.v:23]
 INFO: [Synth 8-6157] synthesizing module 'selDat' [/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v:3]
@@ -37,29 +36,24 @@ INFO: [Synth 8-226] default block is never used [/home/esteban/digitalI/digitalI
 INFO: [Synth 8-6155] done synthesizing module 'selAn' (5#1) [/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selAn.v:3]
 INFO: [Synth 8-226] default block is never used [/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v:43]
 INFO: [Synth 8-6155] done synthesizing module 'selDat' (6#1) [/home/esteban/digitalI/digitalI/BCDto4SSeg/BCDto4SSeg.srcs/sources_1/new/selDat.v:3]
-WARNING: [Synth 8-3848] Net an in module/entity KeyPad does not have driver. [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:35]
 INFO: [Synth 8-6155] done synthesizing module 'KeyPad' (7#1) [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
 WARNING: [Synth 8-3331] design BCDtoSeg has unconnected port divFre
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[3]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[2]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[1]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[0]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1719.922 ; gain = 245.352 ; free physical = 255 ; free virtual = 7518
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1719.922 ; gain = 245.352 ; free physical = 4038 ; free virtual = 9627
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1722.891 ; gain = 248.320 ; free physical = 251 ; free virtual = 7515
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1722.891 ; gain = 248.320 ; free physical = 4035 ; free virtual = 9624
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
----------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1730.895 ; gain = 256.324 ; free physical = 249 ; free virtual = 7513
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1730.895 ; gain = 256.324 ; free physical = 4034 ; free virtual = 9623
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1749.809 ; gain = 275.238 ; free physical = 231 ; free virtual = 7495
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1748.809 ; gain = 274.238 ; free physical = 4019 ; free virtual = 9611
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -140,12 +134,8 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[3]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[2]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[1]
-WARNING: [Synth 8-3331] design KeyPad has unconnected port an[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 182 ; free virtual = 7239
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1868.184 ; gain = 393.613 ; free physical = 3773 ; free virtual = 9387
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -158,7 +148,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 181 ; free virtual = 7239
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3772 ; free virtual = 9385
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -170,7 +160,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 180 ; free virtual = 7239
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3772 ; free virtual = 9385
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -194,13 +184,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -208,44 +198,36 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[3] with 1st driver pin 'rows_IBUF[3]_inst/O' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[3] with 2nd driver pin 'Sweeping/rows_reg[3]/Q' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:35]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[2] with 1st driver pin 'rows_IBUF[2]_inst/O' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[2] with 2nd driver pin 'Sweeping/rows_reg[2]/Q' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:35]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[1] with 1st driver pin 'rows_IBUF[1]_inst/O' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[1] with 2nd driver pin 'Sweeping/rows_reg[1]/Q' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:35]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[0] with 1st driver pin 'rows_IBUF[0]_inst/O' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/genkeyPad.v:23]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rows_IBUF[0] with 2nd driver pin 'Sweeping/rows_reg[0]/Q' [/home/esteban/digitalI/digitalI/keypad/keypad.srcs/sources_1/new/sweeping.v:35]
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
 |      |Item              |Errors |Warnings |Status |Description       |
 +------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        4|Failed |Multi driven nets |
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -263,51 +245,51 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |    14|
-|3     |LUT1   |     2|
-|4     |LUT2   |    62|
+|3     |LUT1   |     3|
+|4     |LUT2   |    67|
 |5     |LUT3   |     2|
 |6     |LUT4   |    13|
 |7     |LUT6   |    20|
-|8     |FDRE   |    68|
-|9     |IBUF   |     9|
-|10    |OBUF   |     7|
-|11    |OBUFT  |     4|
+|8     |FDRE   |    74|
+|9     |IBUF   |     5|
+|10    |OBUF   |    11|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------+----------+------+
 |      |Instance        |Module    |Cells |
 +------+----------------+----------+------+
-|1     |top             |          |   202|
+|1     |top             |          |   210|
 |2     |  FreDiv        |mfreDiv   |    70|
-|3     |  SelDat        |selDat    |    99|
+|3     |  SelDat        |selDat    |    97|
 |4     |    auxBCDtoSeg |BCDtoSeg  |     7|
 |5     |    auxFreDiv   |mfreDiv_0 |    70|
-|6     |  Sweeping      |sweeping  |    12|
+|6     |    auxSelAn    |selAn     |    12|
+|7     |  Sweeping      |sweeping  |    26|
 +------+----------------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 177 ; free virtual = 7265
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3783 ; free virtual = 9392
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 8 critical warnings and 11 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.191 ; gain = 401.621 ; free physical = 178 ; free virtual = 7266
-Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1876.199 ; gain = 401.621 ; free physical = 178 ; free virtual = 7266
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.152 ; gain = 396.582 ; free physical = 3785 ; free virtual = 9394
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1871.160 ; gain = 396.582 ; free physical = 3785 ; free virtual = 9394
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1885.098 ; gain = 0.000 ; free physical = 233 ; free virtual = 7332
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1886.027 ; gain = 0.000 ; free physical = 3849 ; free virtual = 9458
 INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2013.812 ; gain = 0.000 ; free physical = 149 ; free virtual = 7255
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2013.742 ; gain = 0.000 ; free physical = 3757 ; free virtual = 9380
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 11 Warnings, 8 Critical Warnings and 0 Errors encountered.
+27 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2013.812 ; gain = 539.359 ; free physical = 283 ; free virtual = 7389
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2013.812 ; gain = 0.000 ; free physical = 283 ; free virtual = 7389
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2013.742 ; gain = 539.289 ; free physical = 3892 ; free virtual = 9515
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2013.742 ; gain = 0.000 ; free physical = 3892 ; free virtual = 9515
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/esteban/digitalI/digitalI/keypad/keypad.runs/synth_1/KeyPad.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file KeyPad_utilization_synth.rpt -pb KeyPad_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 10:00:51 2020...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 16:57:17 2020...

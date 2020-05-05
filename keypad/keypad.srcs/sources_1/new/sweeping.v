@@ -27,7 +27,7 @@ rows);
 input clk_1K;
 output reg [3:0] rows;
    
-reg [1:0]con;
+reg [1:0]con=0;
    
 always @(posedge clk_1K)
 begin
