@@ -3,9 +3,10 @@
 Nov  6 2019
 21:57:16
 D:/UNAL/semester6/digitali/GitHub/cam_read/cam_read.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-D:/UNAL/semester6/digitali/GitHub/cam_read/simulation/test_cam_TB.v,1594064721,verilog,,,,test_cam_TB,,,,,,,,
+D:/UNAL/semester6/digitali/GitHub/cam_read/simulation/test_cam_TB.v,1594064885,verilog,,,,test_cam_TB,,,,,,,,
 D:/UNAL/semester6/digitali/GitHub/cam_read/src/PLL/clk24_25_nexys4.v,1593885671,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/test_cam.v,,clk24_25_nexys4,,,,,,,,
 D:/UNAL/semester6/digitali/GitHub/cam_read/src/VGA_driver.v,1593623372,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/buffer_ram_dp.v,,VGA_Driver160x120,,,,,,,,
-D:/UNAL/semester6/digitali/GitHub/cam_read/src/buffer_ram_dp.v,1593893449,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/cam_read.v,,buffer_ram_dp,,,,,,,,
+D:/UNAL/semester6/digitali/GitHub/cam_read/src/buffer_ram_dp.v,1593893449,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/cam_read2_0.v,,buffer_ram_dp,,,,,,,,
 D:/UNAL/semester6/digitali/GitHub/cam_read/src/cam_read.v,1594054016,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/PLL/clk24_25_nexys4.v,,cam_read,,,,,,,,
-D:/UNAL/semester6/digitali/GitHub/cam_read/src/test_cam.v,1594057714,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/simulation/test_cam_TB.v,,test_cam,,,,,,,,
+D:/UNAL/semester6/digitali/GitHub/cam_read/src/cam_read2_0.v,1594078726,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/src/PLL/clk24_25_nexys4.v,,cam_read2_0,,,,,,,,
+D:/UNAL/semester6/digitali/GitHub/cam_read/src/test_cam.v,1594078781,verilog,,D:/UNAL/semester6/digitali/GitHub/cam_read/simulation/test_cam_TB.v,,test_cam,,,,,,,,

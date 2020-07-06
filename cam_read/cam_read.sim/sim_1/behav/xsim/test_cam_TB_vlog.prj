@@ -2,7 +2,7 @@
 verilog xil_defaultlib  \
 "../../../../src/VGA_driver.v" \
 "../../../../src/buffer_ram_dp.v" \
-"../../../../src/cam_read.v" \
+"../../../../src/cam_read2_0.v" \
 "../../../../src/PLL/clk24_25_nexys4.v" \
 "../../../../src/test_cam.v" \
 "../../../../simulation/test_cam_TB.v" \
