@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 10ns / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // 
 // Create Date:    13:34:31 10/22/2019 
@@ -26,7 +26,7 @@
 module buffer_ram_dp#( 
 	parameter AW = 15, // Cantidad de bits  de la direccin 
 	parameter DW = 12, // cantidad de Bits de los datos 
-	parameter   imageFILE= "src/image.men")
+	parameter   imageFILE= "D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/src/imagen.men")
 	(  
 	input  clk_w,     		  // Frecuencia de toma de datos de cada pixel.
 	input  [AW-1: 0] addr_in, // Dirección entrada dada por el capturador.

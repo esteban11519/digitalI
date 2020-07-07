@@ -42,10 +42,11 @@ module test_cam_TB;
 	wire CAM_xclk;
 	wire CAM_pwdn;
 	wire CAM_reset;
-
+	
+    wire [11:0] data_mem;
 
 // Absolute Address of the file
-localparam d="D:/UNAL/semester6/digitali/GitHub/cam_read/test_vga.txt";
+localparam d="D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/test_vga.txt";
 	// Instantiate the Unit Under Test (UUT)
 	test_cam uut (
 		.clk(clk), 
@@ -61,7 +62,12 @@ localparam d="D:/UNAL/semester6/digitali/GitHub/cam_read/test_vga.txt";
 		.CAM_pclk(pclk), 
 		.CAM_vsync(CAM_vsync), 
 		.CAM_href(CAM_href), 
+		
+		.data_mem(data_mem),
+		
 		.CAM_px_data(CAM_px_data)
+		
+		
 	);
 	reg img_generate=0;
 	initial begin
