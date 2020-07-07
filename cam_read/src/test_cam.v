@@ -30,13 +30,12 @@ module test_cam
     output wire [3:0] VGA_R,  // 4-bit VGA red output.
     output wire [3:0] VGA_G,  // 4-bit VGA green output.
     output wire [3:0] VGA_B,  // 4-bit VGA blue output.
-
-
-
-    
-
-
-	//CAMARA input/output
+	 
+	 // Se�ales de prueba *****************************************
+	
+	output wire [11:0] data_mem,	
+	
+	//CAMARA input/output ********************************
 	
 	output wire CAM_xclk,		// System  clock input de la c�mara.
 	output wire CAM_pwdn,		// Power down mode. 
@@ -45,8 +44,6 @@ module test_cam
 	input wire CAM_href,				// Sennal HREF de la camara. (wire?).
 	input wire CAM_vsync,              // Sennal VSYNC de la camara. (wire?).
 	input wire CAM_px_data
-
-
 	
 				
 //	input CAM_D0,					// Bit 0 de los datos del pixel
@@ -100,10 +97,16 @@ wire [DW-1:0] data_RGB444;  // salida del driver VGA al puerto
 wire [9:0] VGA_posX;		   // Determinar la pos de memoria que viene del VGA
 wire [8:0] VGA_posY;		   // Determinar la pos de memoria que viene del VGA
 
+
+/* ****************************************************************************
+La pantalla VGA es RGB 444, pero el almacenamiento en memoria se hace 332
+por lo tanto, los bits menos significactivos deben ser cero
+**************************************************************************** */
 /*
 
 Todos los datos a manejar estan en formato RGB 444. Cuando se haga el driver
 se hara este pedazo.
+
 */
 
 assign VGA_R = data_RGB444[11:7];
@@ -116,7 +119,7 @@ Asignacion de las seales de control xclk pwdn y reset de la camara
 **************************************************************************** */
 
 assign CAM_xclk = clk24M;		// Asignación reloj cámara.
-assign CAM_pwdn = 0;			// Power down mode.   
+assign CAM_pwdn = 0;			// Power down mode. 
 assign CAM_reset = 0;			// Reset cámara.
 
 /* ****************************************************************************
@@ -124,9 +127,9 @@ assign CAM_reset = 0;			// Reset cámara.
   fpga Spartan6 lx9 a 32MHz.
   usar "tools -> Core Generator ..."  y general el ip con Clocking Wizard
   el bloque genera un reloj de 25Mhz usado para el VGA  y un relo de 24 MHz
-  utilizado para la camara , a partir de una frecuencia de 100 Mhz
+  utilizado para la camara , a partir de una frecuencia de 32 Mhz
 **************************************************************************** */
-assign clk100M =clk;			// Se guarda el reloj FPGA en variable.
+assign clk100M =clk;			// Se guarda el reloj FPGA en variable. (No se esta usando).
 
 clk24_25_nexys4 clk25_24(
   .CLK_IN1(clk),				//Reloj de la FPGA.
@@ -141,8 +144,8 @@ captura_datos_downsampler
 //captura_de_datos_downsampler 
 
 cam_read2_0 #(AW,DW) cam_read 
-( 
-         // Entradas
+(  // Captura?? Otro nombre??.	// Entradas.
+        //entradas
 		.CAM_px_data(CAM_px_data),
 		.CAM_pclk(CAM_pclk),
 		.CAM_vsync(CAM_vsync),
@@ -183,8 +186,6 @@ VGA_Driver160x120 VGA640x480 // Necesitamos otro driver.
 	.rst(rst),
 	.clk(clk25M), 				// 25MHz  para 60 hz de 640x480
 	.pixelIn(data_mem), 		// entrada del valor de color  pixel RGB 444 
-	
-	
 	.pixelOut(data_RGB444),		// salida del valor pixel a la VGA 
 	.Hsync_n(VGA_Hsync_n),		// sennal de sincronizacion en horizontal negada
 	.Vsync_n(VGA_Vsync_n),		// sennal de sincronizacion en vertical negada 

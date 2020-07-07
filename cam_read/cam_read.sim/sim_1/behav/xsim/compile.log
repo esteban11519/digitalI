@@ -11,5 +11,6 @@ INFO: [VRFC 10-2458] undeclared symbol clkout0, assumed default net type wire [D
 INFO: [VRFC 10-2458] undeclared symbol clkout1, assumed default net type wire [D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/src/PLL/clk24_25_nexys4.v:135]
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/src/test_cam.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module test_cam
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'data_mem' is not allowed [D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/src/test_cam.v:95]
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/simulation/test_cam_TB.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module test_cam_TB

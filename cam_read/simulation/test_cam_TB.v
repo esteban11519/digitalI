@@ -42,9 +42,12 @@ module test_cam_TB;
 	wire CAM_xclk;
 	wire CAM_pwdn;
 	wire CAM_reset;
-	
+    
+    // Señales de prueba ******************************
+    
     wire [11:0] data_mem;
 
+    // Señales de prueba ******************************
 // Absolute Address of the file
 localparam d="D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/test_vga.txt";
 	// Instantiate the Unit Under Test (UUT)
@@ -56,18 +59,19 @@ localparam d="D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/test_vga.txt";
 		.VGA_R(VGA_R), 
 		.VGA_G(VGA_G), 
 		.VGA_B(VGA_B), 
+		
+		// señales de prueba *******************************************
+		.data_mem(data_mem),
+		
+		//Prueba *******************************************
+		
 		.CAM_xclk(CAM_xclk), 
 		.CAM_pwdn(CAM_pwdn), 
 		.CAM_reset(CAM_reset), 
 		.CAM_pclk(pclk), 
 		.CAM_vsync(CAM_vsync), 
 		.CAM_href(CAM_href), 
-		
-		.data_mem(data_mem),
-		
 		.CAM_px_data(CAM_px_data)
-		
-		
 	);
 	reg img_generate=0;
 	initial begin
