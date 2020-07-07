@@ -28,6 +28,7 @@ module cam_read2_0 #(
 		CAM_vsync,
 		CAM_href,
 		rst,
+		
 		DP_RAM_regW, 
 		DP_RAM_addr_in,
 		DP_RAM_data_in
@@ -64,10 +65,11 @@ always@(negedge CAM_pclk)begin
 end
 
 always@(negedge CAM_pclk) begin
-    if(reset) begin
+    if(reset|rst) begin
 		DP_RAM_regW=0; //enable
 		DP_RAM_addr_in=0;
 		DP_RAM_data_in=0;
+		status=INIT;
 	end
 end
 
