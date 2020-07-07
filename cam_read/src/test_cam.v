@@ -30,12 +30,12 @@ module test_cam
     output wire [3:0] VGA_R,  // 4-bit VGA red output.
     output wire [3:0] VGA_G,  // 4-bit VGA green output.
     output wire [3:0] VGA_B,  // 4-bit VGA blue output.
+
+
+
     
-    
-    //output wire [11:0] DP_RAM_data_in,
-    
-    output wire [11:0] data_mem,
-    
+
+
 	//CAMARA input/output
 	
 	output wire CAM_xclk,		// System  clock input de la cámara.
@@ -45,6 +45,8 @@ module test_cam
 	input wire CAM_href,				// Sennal HREF de la camara. (wire?).
 	input wire CAM_vsync,              // Sennal VSYNC de la camara. (wire?).
 	input wire CAM_px_data
+
+
 	
 				
 //	input CAM_D0,					// Bit 0 de los datos del pixel
@@ -138,7 +140,7 @@ captura_datos_downsampler
 **************************************************************************** */
 //captura_de_datos_downsampler 
 
-cam_read #(AW,DW) cam_read 
+cam_read2_0 #(AW,DW) cam_read 
 ( 
          // Entradas
 		.CAM_px_data(CAM_px_data),

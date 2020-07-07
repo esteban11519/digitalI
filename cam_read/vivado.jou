@@ -53,3 +53,7 @@ close_sim
 launch_simulation
 source test_cam_TB.tcl
 run all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation

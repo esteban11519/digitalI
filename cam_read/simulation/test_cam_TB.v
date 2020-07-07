@@ -81,7 +81,7 @@ localparam d="D:/UNAL/semester6/digitali/GitHub/digitalI/cam_read/test_vga.txt";
    	// Wait 100 ns for global reset to finish
 		#20;
 		rst = 0;
-		#1_000_000 img_generate=1;
+		#1_000 img_generate=1;
 	end
 
 	always #0.5 clk  = ~clk;
