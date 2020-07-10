@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sources/VGA_driver0.v" \
+"../../../../sources/buffer_ram_dp.v" \
+"../../../../sources/cam_read2_0.v" \
+"../../../../sources/PLL/clk24_25_nexys4.v" \
+"../../../../sources/test_cam.v" \
+"../../../../simulation/test_cam_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
